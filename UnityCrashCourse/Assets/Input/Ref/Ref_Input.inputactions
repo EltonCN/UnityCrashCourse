@@ -1,0 +1,34 @@
+{
+    "name": "Ref_Input",
+    "maps": [
+        {
+            "name": "DefaultMap",
+            "id": "ee049613-5439-4ee4-a5ec-48b9e42b3d66",
+            "actions": [
+                {
+                    "name": "MovePosition",
+                    "type": "Button",
+                    "id": "b10ff0cc-fb4f-4676-96c4-c679b3d784d5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4ae24b34-7c16-49af-bc6a-924ac2ab95b3",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MovePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
