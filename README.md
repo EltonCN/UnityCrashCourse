@@ -2,13 +2,20 @@
 
 Exemplos para ensinar Unity.
 
+Cada aula contém um conjunto de slides, roteiro e exemplos. Os exemplos estão no projeto na pasta [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse).
+
+## Estrutura do repositório
+
+- [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse): Projeto da Unity com exemplos.
+- [Slides](https://github.com/EltonCN/UnityCrashCourse/tree/main/Slides): Slides utilizados em cada aula
+- [Roteiros](https://github.com/EltonCN/UnityCrashCourse/tree/main/Roteiros): Roteiros para as aulas
+
+
 ## Aulas
 
 ### 1
 
 **Objetivo:** Começar a desenvolver o projeto e mecânicas básicas
-
-
 
 **Tópicos**
 - Game engines
@@ -17,6 +24,19 @@ Exemplos para ensinar Unity.
 - Criando códigos dentro da Unity
 - Organização de um projeto
 - Versionamento
+
+[Slides](https://github.com/EltonCN/UnityCrashCourse/blob/main/Slides/Unity%20Crash%20Course%20-%201.pdf)
+
+[Roteiro](https://github.com/EltonCN/UnityCrashCourse/blob/main/Roteiros/Unity%20Crash%20Course%20-%201.pdf)
+
+**Exemplos**
+
+Tópico | Cena | Descrição
+-|-|-
+Básicos | Ref_Basics | Exemplos básicos envolvendo física
+Código | Ref_Script | Programação utilizando Visual Scripting e C#
+Código | Ref_Input | Sistemas de input
+
 
 **Referências úteis**
 
