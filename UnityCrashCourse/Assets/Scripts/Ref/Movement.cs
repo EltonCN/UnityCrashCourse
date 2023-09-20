@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
 
     Vector2 input;
       
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +27,6 @@ public class Movement : MonoBehaviour
     {
         input = context.ReadValue<Vector2>();
         input *= horizontalVelocity;
-
-        Debug.Log(input);
     }
 
     void FixedUpdate()
