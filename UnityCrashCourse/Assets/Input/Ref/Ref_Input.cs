@@ -50,6 +50,78 @@ public partial class @Ref_Input: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""MovementMap"",
+            ""id"": ""857ee96a-6a12-4689-b88e-d4b5d84e1880"",
+            ""actions"": [
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""28cc81c2-58a4-4208-b999-7704b08eb6b8"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""422aa06b-e63a-444c-8bd7-8f82c46bec22"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""e0a4dcb1-51da-4abf-87b1-69d04be9b948"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""15ace0f9-3d42-49a6-883c-9b16c7cbf08a"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""7e50f31f-d8ce-4ba0-bd9e-628901617a65"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""835eff76-ee9e-4606-aabc-055391a8fb4b"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -57,6 +129,9 @@ public partial class @Ref_Input: IInputActionCollection2, IDisposable
         // DefaultMap
         m_DefaultMap = asset.FindActionMap("DefaultMap", throwIfNotFound: true);
         m_DefaultMap_MovePosition = m_DefaultMap.FindAction("MovePosition", throwIfNotFound: true);
+        // MovementMap
+        m_MovementMap = asset.FindActionMap("MovementMap", throwIfNotFound: true);
+        m_MovementMap_Move = m_MovementMap.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -160,8 +235,58 @@ public partial class @Ref_Input: IInputActionCollection2, IDisposable
         }
     }
     public DefaultMapActions @DefaultMap => new DefaultMapActions(this);
+
+    // MovementMap
+    private readonly InputActionMap m_MovementMap;
+    private List<IMovementMapActions> m_MovementMapActionsCallbackInterfaces = new List<IMovementMapActions>();
+    private readonly InputAction m_MovementMap_Move;
+    public struct MovementMapActions
+    {
+        private @Ref_Input m_Wrapper;
+        public MovementMapActions(@Ref_Input wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_MovementMap_Move;
+        public InputActionMap Get() { return m_Wrapper.m_MovementMap; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MovementMapActions set) { return set.Get(); }
+        public void AddCallbacks(IMovementMapActions instance)
+        {
+            if (instance == null || m_Wrapper.m_MovementMapActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_MovementMapActionsCallbackInterfaces.Add(instance);
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+        }
+
+        private void UnregisterCallbacks(IMovementMapActions instance)
+        {
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+        }
+
+        public void RemoveCallbacks(IMovementMapActions instance)
+        {
+            if (m_Wrapper.m_MovementMapActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IMovementMapActions instance)
+        {
+            foreach (var item in m_Wrapper.m_MovementMapActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_MovementMapActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public MovementMapActions @MovementMap => new MovementMapActions(this);
     public interface IDefaultMapActions
     {
         void OnMovePosition(InputAction.CallbackContext context);
+    }
+    public interface IMovementMapActions
+    {
+        void OnMove(InputAction.CallbackContext context);
     }
 }

@@ -56,6 +56,19 @@ Versionamento | Vídeo | [Playlist sobre Git e Github](https://www.youtube.com/p
 Versionamento | Tutorial | [Guia interativo de git](https://learngitbranching.js.org/?locale=pt_BR)
 Versionamento | Template | [Modelo de .gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore)
 
+### 2
+
+**Referências úteis**
+
+Tópico | Tipo | Referência
+-|-|-
+Level Design | Livro/Site | [The Level Design Book](https://book.leveldesignbook.com/), [The Level Design Book: Blockout](https://book.leveldesignbook.com/process/blockout)
+Level Design | Vídeo | [GMTK: Level Design (Playlist)](https://www.youtube.com/playlist?list=PLc38fcMFcV_t6cVUpPXYnooVe1r_C0_4f) 
+Level Design | Site | [Level Design Study: The Last of Us Part II gameplay trailer level](https://www.gamedeveloper.com/design/level-design-study-the-last-of-us-part-ii-gameplay-trailer-level)
+Level Design | Video | [Polybrush Intro and Tutorial](https://www.youtube.com/watch?v=JQyntL-Z5bM)
+Level Design | Video | [How to build beautiful landscapes in Unity using Terrain Tools \| Tutorial](https://www.youtube.com/watch?v=smnLYvF40s4)
+
+
 # Licença
 
 Códigos (exemplos em [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse)): 
