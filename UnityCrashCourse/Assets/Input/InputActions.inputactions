@@ -1,0 +1,34 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "ExampleMap",
+            "id": "3f9e0dc6-57d9-4503-a23a-bdbe5e50929a",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "90866cbe-61ea-42db-8410-ba9d4d06abd5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f951dec1-8d3b-4429-be20-89b09d737844",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
