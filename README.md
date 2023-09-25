@@ -86,6 +86,27 @@ Level Design | Video | [Polybrush Intro and Tutorial](https://www.youtube.com/wa
 Level Design | Video | [How to build beautiful landscapes in Unity using Terrain Tools \| Tutorial](https://www.youtube.com/watch?v=smnLYvF40s4)
 
 
+### 3
+
+
+
+Tópico | Tipo | Referência
+-|-|-
+Materiais e Texturas|Base de dados|https://quixel.com/megascans/free
+Materiais e Texturas|Base de dados|https://ambientcg.com/
+Materiais e Texturas|Base de dados|https://physicallybased.info/
+
+https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1
+
+https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2
+
+
+https://www.youtube.com/watch?v=ueC2qGzWrgQ
+
+https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl
+
+https://www.substance3d.com/education/
+
 # Licença
 
 Códigos (exemplos em [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse)): 
