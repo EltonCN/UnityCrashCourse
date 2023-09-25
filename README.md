@@ -58,6 +58,23 @@ Versionamento | Template | [Modelo de .gitignore](https://github.com/github/giti
 
 ### 2
 
+**Objetivo:** Aprender como desenvolver um level
+
+**Tópicos**
+- Level Design
+- Recorder
+- Modelos 3D
+
+[Slides](https://github.com/EltonCN/UnityCrashCourse/blob/main/Slides/Unity%20Crash%20Course%20-%202.pdf)
+
+[Roteiro](https://github.com/EltonCN/UnityCrashCourse/blob/main/Roteiros/Unity%20Crash%20Course%20-%202.pdf)
+
+**Exemplos**
+
+Tópico | Cena | Descrição
+-|-|-
+Level Design | ExampleLevel | Exemplo de protótipo inicial construído com ProBuilder e Terrain
+
 **Referências úteis**
 
 Tópico | Tipo | Referência
