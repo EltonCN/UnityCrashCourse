@@ -88,24 +88,46 @@ Level Design | Video | [How to build beautiful landscapes in Unity using Terrain
 
 ### 3
 
+**Objetivo:** Aprender a criar materiais simples na Unity
 
+**Tópicos**
+- Materais
+- PBR e HDRP Lit Shader
+- Decal
+
+[Slides](https://github.com/EltonCN/UnityCrashCourse/blob/main/Slides/Unity%20Crash%20Course%20-%203.pdf)
+
+[Roteiro](https://github.com/EltonCN/UnityCrashCourse/blob/main/Roteiros/Unity%20Crash%20Course%20-%203.pdf)
+
+**Exemplos**
+
+Materiais e objetos criados na SampleScene da HDRP.
+
+**Referências úteis**
 
 Tópico | Tipo | Referência
 -|-|-
-Materiais e Texturas|Base de dados|https://quixel.com/megascans/free
-Materiais e Texturas|Base de dados|https://ambientcg.com/
-Materiais e Texturas|Base de dados|https://physicallybased.info/
+Materiais|Documentação|[HDRP Unlit Shader](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/Unlit-Shader.html)
+PBR e HDRP Lit Shader|Site|[The PBR Guide by Allegorithmic - Part 1](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1)
+PBR e HDRP Lit Shader|Site|[The PBR Guide by Allegorithmic - Part 2](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2)
+PBR e HDRP Lit Shader|Vídeo|[Substance for Unity: Chapter 01-01 Understanding PBR](https://www.youtube.com/watch?v=ueC2qGzWrgQ)
+PBR e HDRP Lit Shader|Canal|[Stylized Station - Explicações de técnicas de computação gráfica](https://www.youtube.com/@StylizedStation)
+PBR e HDRP Lit Shader|Site|[Substance 3D Education](https://www.substance3d.com/education/)
+PBR e HDRP Lit Shader|Documentação|[HDRP Lit Shader](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/Lit-Shader.html)
+PBR e HDRP Lit Shader|Base de dados|[ambientCG - Materiais PBR CC0](https://ambientcg.com/)
+PBR e HDRP Lit Shader|Base de dados|[PHYSICALLYBASED: A database of physically based values for CG artists](https://physicallybased.info/)
+Decals|Documentação|[HDRP Decals](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/Decal.html)
 
-https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1
-
-https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2
 
 
-https://www.youtube.com/watch?v=ueC2qGzWrgQ
+
+
+
+
+
+### 4
 
 https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl
-
-https://www.substance3d.com/education/
 
 # Licença
 
