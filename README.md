@@ -9,6 +9,7 @@ Cada aula contém um conjunto de slides, roteiro e exemplos. Os exemplos estão 
 - [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse): Projeto da Unity com exemplos.
 - [Slides](https://github.com/EltonCN/UnityCrashCourse/tree/main/Slides): Slides utilizados em cada aula
 - [Roteiros](https://github.com/EltonCN/UnityCrashCourse/tree/main/Roteiros): Roteiros para as aulas
+- [Substance](https://github.com/EltonCN/UnityCrashCourse/tree/main/Substance): Projetos do Substance 3D de exemplo.
 
 
 ## Aulas
