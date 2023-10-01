@@ -130,6 +130,10 @@ Decals|Documentação|[HDRP Decals](https://docs.unity3d.com/Packages/com.unity.
 
 https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl
 
+[Unity - Manual: Light Modes](https://docs.unity3d.com/Manual/LightModes.html)
+
+
+
 # Licença
 
 Códigos (exemplos em [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse)): 
