@@ -119,20 +119,42 @@ PBR e HDRP Lit Shader|Base de dados|[ambientCG - Materiais PBR CC0](https://ambi
 PBR e HDRP Lit Shader|Base de dados|[PHYSICALLYBASED: A database of physically based values for CG artists](https://physicallybased.info/)
 Decals|Documentação|[HDRP Decals](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/Decal.html)
 
-
-
-
-
-
-
-
 ### 4
 
-https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl
 
-[Unity - Manual: Light Modes](https://docs.unity3d.com/Manual/LightModes.html)
+**Objetivo:** Aprender a criar a iluminação de uma cena e diferentes técnicas para criar efeitos gráficos
 
+**Tópicos**
+- Post processing
+- Luz
+- Materiais II e shaders
+- VFX
 
+[Slides](https://github.com/EltonCN/UnityCrashCourse/blob/main/Slides/Unity%20Crash%20Course%20-%204.pdf)
+
+[Roteiro](https://github.com/EltonCN/UnityCrashCourse/blob/main/Roteiros/Unity%20Crash%20Course%20-%204.pdf)
+
+**Exemplos**
+
+Tópico | Cena | Descrição
+-|-|-
+Post processing | PostProcess | Exemplo de diferentes efeitos de post process e sombras
+Luz|LightExamples\No Baking| Exemplo mostrando a Sample Scene da HDRP sem light baking
+Luz|LightExamples\LightProbre, LightExamples\No Light Probe, LightExamples\Realtime | Diferentes modos para iluminação dinâmica
+Materiais II e shaders|Shaders|Exemplos de shaders
+VFX|VFX|Exemplo de VFXs
+
+**Referências úteis**
+
+Tópico | Tipo | Referência
+-|-|-
+Post processing |Documentação|[HDRP: Volumes](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/Volumes.html)
+Luz|Vídeo|[Lighting tutorial: 4 techniques to light environments in Unity \| Unite 2022](https://www.youtube.com/watch?v=DlxuvvYZO4Q)
+Luz|Livro|[The definitive guide to lighting in the High Definition Render Pipeline (HDRP)](https://create.unity.com/hdrp-guide)
+Luz|Documentação|[Unity - Manual: Light Modes](https://docs.unity3d.com/Manual/LightModes.html)
+Materiais II e shaders|Vídeo|[Playlist: Shader Graph Basics (Ben Cloward)](https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl)
+Materiais II e shaders|Vídeo|[Playlist: Advanced Materials (Ben Cloward)](https://www.youtube.com/playlist?list=PL78XDi0TS4lGqHdLQGR2GHne85i9PebbN)
+VFX|Livro|[The definitive guide to creating advanced visual effects in Unity](https://resources.unity.com/games/definitive-guide-to-creating-visual-effects?ungated=true)
 
 # Licença
 
