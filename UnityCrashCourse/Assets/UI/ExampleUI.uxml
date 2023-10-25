@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/ExampleUI.uss?fileID=7433441132597879392&amp;guid=a3a38aa1cc006e342916581a18ce963d&amp;type=3#ExampleUI" />
+    <ui:ProgressBar value="50" title="Life" name="lifebar" picking-mode="Ignore" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+        <ui:Button text="Cure" display-tooltip-when-elided="true" name="cure" class="button" />
+        <ui:Button text="Hit" display-tooltip-when-elided="true" name="hit" class="button" />
+    </ui:VisualElement>
+</ui:UXML>
