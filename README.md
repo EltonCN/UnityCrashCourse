@@ -156,6 +156,31 @@ Materiais II e shaders|Vídeo|[Playlist: Shader Graph Basics (Ben Cloward)](http
 Materiais II e shaders|Vídeo|[Playlist: Advanced Materials (Ben Cloward)](https://www.youtube.com/playlist?list=PL78XDi0TS4lGqHdLQGR2GHne85i9PebbN)
 VFX|Livro|[The definitive guide to creating advanced visual effects in Unity](https://resources.unity.com/games/definitive-guide-to-creating-visual-effects?ungated=true)
 
+### 5
+
+**Objetivo:** Conseguir implementar cinemáticas e animações, incluindo retargetting. E implementação de interfaces.
+
+**Tópicos**
+- Animação
+- UI
+
+[Roteiro](https://github.com/EltonCN/UnityCrashCourse/blob/main/Roteiros/Unity%20Crash%20Course%20-%205.pdf)
+
+**Exemplos**
+
+Tópico | Cena | Descrição
+-|-|-
+Animação|Animation|Exemplos utilizando timelines, clips de animação, controllers e rigging.
+UI|UI|Exemplos com uGUI e UI Toolkit
+
+**Referências úteis**
+
+Tópico | Tipo | Referência
+-|-|-
+Animação|Vídeo|[Playlist: Unity's Animation System (iHeartGameDev)](https://www.youtube.com/playlist?list=PLwyUzJb_FNeTQwyGujWRLqnfKpV-cj-eO)
+Animação|Vídeo|[Make your Characters Interactive! - Animation Rigging in Unity (Brackeys)](https://www.youtube.com/watch?v=Htl7ysv10Qs)
+UI|Documentação|[Unity - Manual: Comparison of UI systems in Unity](https://docs.unity3d.com/Manual/UI-system-compare.html)
+
 # Licença
 
 Códigos (exemplos em [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse)): 
