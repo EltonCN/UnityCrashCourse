@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6920663e2dcf64c97bdd1072c3522c, type: 3}
+  m_Name: MagicSword1
+  m_EditorClassIdentifier: 
+  itemName: Ember blade
+  attack: 50
+  durability: 3
+  attackType: {fileID: 11400000, guid: 38d6a02e42cea714bb4c9de984d15cf1, type: 2}

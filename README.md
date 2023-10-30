@@ -181,6 +181,25 @@ Animação|Vídeo|[Playlist: Unity's Animation System (iHeartGameDev)](https://w
 Animação|Vídeo|[Make your Characters Interactive! - Animation Rigging in Unity (Brackeys)](https://www.youtube.com/watch?v=Htl7ysv10Qs)
 UI|Documentação|[Unity - Manual: Comparison of UI systems in Unity](https://docs.unity3d.com/Manual/UI-system-compare.html)
 
+### 6
+
+**Objetivo:** Aprender a criar a iluminação de uma cena e diferentes técnicas para criar efeitos gráficos
+
+**Tópicos**
+- Scriptable Objects
+- Navmesh
+- Performance
+
+**Referências úteis**
+
+Tópico | Tipo | Referência
+-|-|-
+Scriptable Objects|Documentação|[Unity - Manual: ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html)
+Scriptable Objects |Livro|[Create modular game architecture in Unity with ScriptableObjects](https://resources.unity.com/games/create-modular-game-architecture-with-scriptable-objects-ebook)
+Scriptable Objects|Vídeo|[Unite Austin 2017 - Game Architecture with Scriptable Objects (Unity)](https://www.youtube.com/watch?v=raQ3iHhE_Kk)
+Navmesh|Tutorial|[Getting Started with AI Pathfinding (Unity Learn)](https://learn.unity.com/project/beginner-ai-pathfinding)
+
+
 # Licença
 
 Códigos (exemplos em [UnityCrashCourse](https://github.com/EltonCN/UnityCrashCourse/tree/main/UnityCrashCourse)): 
