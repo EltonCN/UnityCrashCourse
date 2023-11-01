@@ -183,12 +183,24 @@ UI|Documentação|[Unity - Manual: Comparison of UI systems in Unity](https://do
 
 ### 6
 
-**Objetivo:** Aprender a criar a iluminação de uma cena e diferentes técnicas para criar efeitos gráficos
+**Objetivo:** Aprender técnicas para arquitetura de código na Unity, assim como noções de performance.
 
 **Tópicos**
 - Scriptable Objects
 - Navmesh
 - Performance
+
+[Slides](https://github.com/EltonCN/UnityCrashCourse/blob/main/Slides/Unity%20Crash%20Course%20-%206.pdf)
+
+[Roteiro](https://github.com/EltonCN/UnityCrashCourse/blob/main/Roteiros/Unity%20Crash%20Course%20-%206.pdf)
+
+**Exemplos**
+
+Tópico | Cena | Descrição
+-|-|-
+Scriptable Objects|ScriptableObjects|Exemplos de padrões de projeto com Scriptable Objects
+Navmesh|Navmesh|Exemplo de uso de Navmesh com obstáculos e modifiers
+Performance|Performance|Exemplos para demonstração de problemas de performance
 
 **Referências úteis**
 
@@ -198,6 +210,9 @@ Scriptable Objects|Documentação|[Unity - Manual: ScriptableObject](https://doc
 Scriptable Objects |Livro|[Create modular game architecture in Unity with ScriptableObjects](https://resources.unity.com/games/create-modular-game-architecture-with-scriptable-objects-ebook)
 Scriptable Objects|Vídeo|[Unite Austin 2017 - Game Architecture with Scriptable Objects (Unity)](https://www.youtube.com/watch?v=raQ3iHhE_Kk)
 Navmesh|Tutorial|[Getting Started with AI Pathfinding (Unity Learn)](https://learn.unity.com/project/beginner-ai-pathfinding)
+Performance|Site|[Unity - Manual: Profiler overview](https://docs.unity3d.com/Manual/Profiler.html)
+Performance|Livro|[Ultimate guide to profiling Unity games](https://resources.unity.com/games/ultimate-guide-to-profiling-unity-games)
+Performance|Site|[Unity - Manual: Graphics performance and profiling](https://docs.unity3d.com/Manual/graphics-performance-profiling.html)
 
 
 # Licença
